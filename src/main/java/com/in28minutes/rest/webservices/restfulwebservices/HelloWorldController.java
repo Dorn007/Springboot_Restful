@@ -15,5 +15,11 @@ public class HelloWorldController {
 	public String helloWorld() {
 		return "Hello World";
 	}
+	
+//	Additional approach to setting the mapping	
+//	@GetMapping(path="/hello-world")
+//	public String helloWorld() {
+//		return "Hello World";
+//	}
 
 }
